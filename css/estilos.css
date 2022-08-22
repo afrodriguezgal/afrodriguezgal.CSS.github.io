@@ -2,7 +2,7 @@
 
 :root {
     --padding-container: 100px 0;
-    --color-title: #001A49;
+    --color-title: #000000;
 }
 
 body {
@@ -25,7 +25,7 @@ body {
     position: relative;
     display: grid;
     grid-template-rows: 100px 1fr;
-    color: #fff;
+    color: rgb(250, 249, 255);
 }
 
 .hero::before {
@@ -69,8 +69,9 @@ body {
 }
 
 .nav__links {
-    color: #fff;
+    color: #FFF;
     text-decoration: none;
+    font-weight: bolder;
 }
 
 .nav__menu {
@@ -113,9 +114,10 @@ body {
 
 .cta {
     display: inline-block;
-    background-color: #2091F9;
+    background-color: #aa00c4;
     justify-self: center;
-    color: #fff;
+    color: #FFF;
+    font-weight: bolder;
     text-decoration: none;
     padding: 13px 30px;
     border-radius: 32px;
@@ -165,8 +167,8 @@ body {
 /* Knowledge */
 
 .knowledge {
-    background-color: #e5e5f7;
-    background-image: radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+    background-color: #ffffff;
+    background-image: radial-gradient(#de00c0 0.5px, transparent 0.5px), radial-gradient(#de00c0 0.5px, #e5e5f7 0.5px);
     background-size: 20px 20px;
     background-position: 0 0, 10px 10px;
     overflow: hidden;
@@ -396,7 +398,7 @@ body {
 /* Footer */
 
 .footer{
-    background-color: #1D293F;
+    background-color: #009e37;
 }
 
 .footer__title{
