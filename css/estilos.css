@@ -25,7 +25,7 @@ body {
     position: relative;
     display: grid;
     grid-template-rows: 100px 1fr;
-    color: rgb(2, 85, 238);
+    color: rgb(0, 3, 8);
 }
 
 .hero::before {
